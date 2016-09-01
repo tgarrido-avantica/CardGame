@@ -14,6 +14,8 @@
 		EA5B09AA1D773A6C0029833A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5B09A91D773A6C0029833A /* Assets.xcassets */; };
 		EA5B09AD1D773A6C0029833A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B09AB1D773A6C0029833A /* LaunchScreen.storyboard */; };
 		EA5B09B71D7790580029833A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EA5B09B61D7790580029833A /* .gitignore */; };
+		EA5B09BA1D779E350029833A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09B91D779E350029833A /* Card.m */; };
+		EA5B09C11D77AE010029833A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09C01D77AE010029833A /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		EA5B09AC1D773A6C0029833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5B09AE1D773A6C0029833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5B09B61D7790580029833A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EA5B09B81D779E350029833A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		EA5B09B91D779E350029833A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		EA5B09BF1D77AE010029833A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		EA5B09C01D77AE010029833A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 				EA5B09A31D773A6C0029833A /* ViewController.h */,
 				EA5B09A41D773A6C0029833A /* ViewController.m */,
 				EA5B09A61D773A6C0029833A /* Main.storyboard */,
+				EA5B09BB1D779ED30029833A /* Model */,
 				EA5B09A91D773A6C0029833A /* Assets.xcassets */,
 				EA5B09AB1D773A6C0029833A /* LaunchScreen.storyboard */,
 				EA5B09AE1D773A6C0029833A /* Info.plist */,
@@ -81,6 +88,18 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		EA5B09BB1D779ED30029833A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B09B81D779E350029833A /* Card.h */,
+				EA5B09B91D779E350029833A /* Card.m */,
+				EA5B09BF1D77AE010029833A /* PlayingCard.h */,
+				EA5B09C01D77AE010029833A /* PlayingCard.m */,
+			);
+			name = Model;
+			path = Matchismo/Model;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -156,6 +175,8 @@
 				EA5B09A51D773A6C0029833A /* ViewController.m in Sources */,
 				EA5B09A21D773A6C0029833A /* AppDelegate.m in Sources */,
 				EA5B099F1D773A6C0029833A /* main.m in Sources */,
+				EA5B09C11D77AE010029833A /* PlayingCard.m in Sources */,
+				EA5B09BA1D779E350029833A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +325,7 @@
 				EA5B09B31D773A6C0029833A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
