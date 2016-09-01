@@ -16,6 +16,8 @@
 		EA5B09B71D7790580029833A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EA5B09B61D7790580029833A /* .gitignore */; };
 		EA5B09BA1D779E350029833A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09B91D779E350029833A /* Card.m */; };
 		EA5B09C11D77AE010029833A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09C01D77AE010029833A /* PlayingCard.m */; };
+		EA5B09C41D77B5630029833A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09C31D77B5630029833A /* Deck.m */; };
+		EA5B09C71D77B9F20029833A /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09C61D77B9F20029833A /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +32,14 @@
 		EA5B09AC1D773A6C0029833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5B09AE1D773A6C0029833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5B09B61D7790580029833A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		EA5B09B81D779E350029833A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
-		EA5B09B91D779E350029833A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		EA5B09B81D779E350029833A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EA5B09B91D779E350029833A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		EA5B09BF1D77AE010029833A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		EA5B09C01D77AE010029833A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		EA5B09C21D77B5630029833A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		EA5B09C31D77B5630029833A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		EA5B09C51D77B9F20029833A /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		EA5B09C61D77B9F20029833A /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 				EA5B09B91D779E350029833A /* Card.m */,
 				EA5B09BF1D77AE010029833A /* PlayingCard.h */,
 				EA5B09C01D77AE010029833A /* PlayingCard.m */,
+				EA5B09C21D77B5630029833A /* Deck.h */,
+				EA5B09C31D77B5630029833A /* Deck.m */,
+				EA5B09C51D77B9F20029833A /* PlayingCardDeck.h */,
+				EA5B09C61D77B9F20029833A /* PlayingCardDeck.m */,
 			);
-			name = Model;
-			path = Matchismo/Model;
-			sourceTree = SOURCE_ROOT;
+			path = Model;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -132,6 +141,7 @@
 				TargetAttributes = {
 					EA5B09991D773A680029833A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 77V4G4VPFH;
 					};
 				};
 			};
@@ -172,10 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5B09C71D77B9F20029833A /* PlayingCardDeck.m in Sources */,
 				EA5B09A51D773A6C0029833A /* ViewController.m in Sources */,
 				EA5B09A21D773A6C0029833A /* AppDelegate.m in Sources */,
 				EA5B099F1D773A6C0029833A /* main.m in Sources */,
 				EA5B09C11D77AE010029833A /* PlayingCard.m in Sources */,
+				EA5B09C41D77B5630029833A /* Deck.m in Sources */,
 				EA5B09BA1D779E350029833A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tgarridos.Matchismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -299,10 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tgarridos.Matchismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
