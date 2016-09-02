@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C510D701D78EE0700896849 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C510D6F1D78EE0700896849 /* CardMatchingGame.m */; };
 		EA5B099F1D773A6C0029833A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B099E1D773A6C0029833A /* main.m */; };
 		EA5B09A21D773A6C0029833A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09A11D773A6C0029833A /* AppDelegate.m */; };
 		EA5B09A51D773A6C0029833A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B09A41D773A6C0029833A /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C510D6E1D78EE0700896849 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		5C510D6F1D78EE0700896849 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		EA5B099A1D773A680029833A /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5B099E1D773A6C0029833A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA5B09A01D773A6C0029833A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 		EA5B09BB1D779ED30029833A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5C510D6E1D78EE0700896849 /* CardMatchingGame.h */,
+				5C510D6F1D78EE0700896849 /* CardMatchingGame.m */,
 				EA5B09B81D779E350029833A /* Card.h */,
 				EA5B09B91D779E350029833A /* Card.m */,
 				EA5B09BF1D77AE010029833A /* PlayingCard.h */,
@@ -186,6 +191,7 @@
 				EA5B09A51D773A6C0029833A /* ViewController.m in Sources */,
 				EA5B09A21D773A6C0029833A /* AppDelegate.m in Sources */,
 				EA5B099F1D773A6C0029833A /* main.m in Sources */,
+				5C510D701D78EE0700896849 /* CardMatchingGame.m in Sources */,
 				EA5B09C11D77AE010029833A /* PlayingCard.m in Sources */,
 				EA5B09C41D77B5630029833A /* Deck.m in Sources */,
 				EA5B09BA1D779E350029833A /* Card.m in Sources */,
