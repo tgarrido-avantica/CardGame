@@ -33,7 +33,6 @@
                 self = nil;
                 break;
             }
-            [self.cards addObject:card];
         }
     }
     return self;
