@@ -1,5 +1,4 @@
 .DS_Store
-Matchismo.xcodeproj/xcuserdata/tgarrido.xcuserdatad/xcdebugger/
 build
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
